@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MyVoice Code</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <img src="/TEAM INNOVATORS (3).png" alt=""/>
+    <h1>MyVoice Code</h1>
+    <h2>Code</h2>
+    <textarea id="transcription" readonly="readonly"></textarea>
+
+    <span>Results:</span>
+    <label><input type="radio" name="recognition-type" value="final" checked="checked" /> Final only</label>
+    <label><input type="radio" name="recognition-type" value="interim" /> Interim</label>
+
+    <h3>Log Information</h3>
+    <div id="log"></div>
+
+    <div class="buttons-wrapper">
+      <button id="button-play-ws" class="button-demo">Start</button>
+      <button id="button-stop-ws" class="button-demo">Stop</button>
+      <button id="clear-all" class="button-demo">Clear all</button>
+    </div>
+    <span id="ws-unsupported" class="hidden">API not supported</span>
+
+    <script type="text/javascript" src="js/speech.js"> </script>
+    <script type="text/javascript" src="js/mapping.js"> </script>
+    <script type="text/javascript" src="js/processData.js"> </script>
+    <script type="text/javascript" src="js/model.js"> </script>
+
+    <script>
+        var name = toLowerCase("Naman Rana #@!");
+        console.log(name);
+    </script>
+
+  </body>
+</html>
