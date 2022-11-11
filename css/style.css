@@ -39,6 +39,7 @@ h1
     border: 1px solid #333333;
     line-height: 1.3em;
     background-image: url("https://github.com/NamRana/MyVoice-Code/blob/main/Images/TEAM%20INNOVATORS%20(1)%20(1).png");
+    background-repeat: no-repeat;
 }
 
 .button-demo
